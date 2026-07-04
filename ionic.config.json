@@ -1,0 +1,7 @@
+{
+  "name": "Diabetic Plus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

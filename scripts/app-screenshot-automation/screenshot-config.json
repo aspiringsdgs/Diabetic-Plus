@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "saveFileNameA": "Diabetes Log A",
+  "saveFileNameB": "Diabetes Log B",
+  "onboardingButtonText": "Start Tracking",
+  "savedFilesPageTitle": "My Diabetes Logs",
+  "settingsPageTitle": "App Settings",
+  "saveFileDialogTitle": "Save File",
+  "editCellMobile": "C5",
+  "editCellTablet": "D7",
+  "editValue": "1000",
+  "maxTabsMobile": 5,
+  "maxTabsTablet": 6
+}

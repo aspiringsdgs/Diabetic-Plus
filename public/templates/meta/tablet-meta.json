@@ -1,0 +1,19 @@
+{
+  "isPremium": false,
+  "price": {
+    "USD": 0
+  },
+  "name": "Diabetic Plus (Tablet)",
+  "type": "diabetic-plus",
+  "device": "tablet",
+  "description": "Comprehensive daily logs, blood sugar charts, activity records, meal planners, guidelines, risk scores, and symptoms tracker.",
+  "id": 100002,
+  "image": "",
+  "hashtags": [
+    "health",
+    "diabetes",
+    "tracker",
+    "logs",
+    "tablet"
+  ]
+}

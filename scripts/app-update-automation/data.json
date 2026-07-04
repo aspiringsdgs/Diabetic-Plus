@@ -1,0 +1,121 @@
+{
+  "_comment": "App Update Automation — Central Configuration for Diabetic Plus",
+
+  "app": {
+    "name": "Diabetic Plus",
+    "kebabName": "diabetic-plus",
+    "packageName": "com.aspiring.DiabetesManager",
+    "description": "Track daily logs, blood sugar levels, activity logs, meals, guidelines, diabetes risk scores, and symptoms offline.",
+    "type": "diabetic-plus",
+    "version": "6.0.0",
+    "marketingVersion": "6.0",
+    "buildNumber": "1"
+  },
+
+  "theme": {
+    "primaryColor": "#3880ff",
+    "primaryColorRgb": "56, 128, 255",
+    "primaryColorShade": "#3171e0",
+    "primaryColorTint": "#4c8dff",
+    "primaryContrast": "#ffffff",
+    "primaryContrastRgb": "255, 255, 255",
+    "secondaryColor": "#f4f5f8",
+    "secondaryColorRgb": "244, 245, 248",
+    "secondaryContrast": "#000000",
+    "secondaryContrastRgb": "0, 0, 0",
+    "secondaryShade": "#d7d8da",
+    "secondaryTint": "#ffffff",
+    "backgroundColor": "#f4f5f8"
+  },
+
+  "onboarding": {
+    "welcomeTitle": "Welcome to Diabetic Plus",
+    "welcomeSubtitle": "Track daily logs, blood sugar charts, activity records, and symptoms completely offline.",
+    "features": [
+      "Log blood sugar readings and view visual charts",
+      "Plan meals, calculate diabetes risk scores, and check medical guidelines",
+      "Keep symptoms and activity logs saved securely on your device"
+    ],
+    "ctaButtonText": "Start Tracking"
+  },
+
+  "pages": {
+    "dashboardHeaderTitle": "Diabetic Plus",
+    "filesPageHeaderTitle": "My Diabetes Logs",
+    "settingsPageAppName": "Diabetic Plus",
+    "settingsPageMarketingVersion": "6.0",
+    "settingsPageBuildNumber": "1",
+    "settingsCurrencyDescription": "Change the display currency for your reports.",
+    "settingsResetDescription": "Wipe all local diabetes logs, custom templates, and configuration settings completely."
+  },
+
+  "tabs": {
+    "home": "Home",
+    "files": "Files",
+    "settings": "Settings"
+  },
+
+  "templates": {
+    "appType": "diabetic-plus",
+    "hashtags": ["health", "diabetes", "tracker", "logs"],
+    "mobile": {
+      "name": "Diabetic Plus (Mobile)",
+      "description": "Daily logs, blood sugar charts, activity records, meal planners, guidelines, risk scores, and symptoms tracker.",
+      "mscJsonPath": "scripts/app-update-automation/templates/mob.json"
+    },
+    "tablet": {
+      "name": "Diabetic Plus (Tablet)",
+      "description": "Comprehensive daily logs, blood sugar charts, activity records, meal planners, guidelines, risk scores, and symptoms tracker.",
+      "mscJsonPath": "scripts/app-update-automation/templates/tab.json"
+    },
+    "desktop": {
+      "name": "Diabetic Plus (Desktop)",
+      "description": "Comprehensive daily logs, blood sugar charts, activity records, meal planners, guidelines, risk scores, and symptoms tracker.",
+      "mscJsonPath": ""
+    },
+    "footerTabNames": {
+      "tab1": "Daily Log",
+      "tab2": "Blood Sugar Chart",
+      "tab3": "Activity Log",
+      "tab4": "Meal Planner",
+      "tab5": "Guidelines",
+      "tab6": "Risk Score",
+      "tab7": "Symptoms"
+    }
+  },
+
+  "pdf": {
+    "footerLabel": "Diabetic Plus",
+    "defaultFilename": "diabetic_plus_report",
+    "defaultAllSheetsFilename": "all_diabetes_records",
+    "shareSubject": "Here is your Diabetic Plus Report",
+    "shareText": "Diabetic Plus Report PDF generated successfully",
+    "csvShareText": "Medical log exported as CSV",
+    "singleSheetName": "Diabetes Record"
+  },
+
+  "menu": {
+    "printWindowTitle": "Print Diabetes Report",
+    "emailSubject": "Here is your Diabetic Plus Report",
+    "saveToastMessage": "Diabetes report saved successfully!",
+    "fallbackFileName": "Diabetic Plus Report"
+  },
+
+  "ios": {
+    "displayName": "Diabetic Plus",
+    "cameraUsageDescription": "Diabetic Plus needs access to your camera to scan medical reports or food labels.",
+    "photoLibraryUsageDescription": "Diabetic Plus needs access to your photo library to save prescription images.",
+    "microphoneUsageDescription": "Diabetic Plus needs microphone access when recording notes with camera."
+  },
+
+  "pwa": {
+    "shortName": "Diabetic Plus",
+    "fullName": "Diabetic Plus",
+    "themeColor": "#3880ff",
+    "backgroundColor": "#f4f5f8"
+  },
+
+  "icon": {
+    "sourceIconPath": "scripts/app-update-automation/templates/icon.png"
+  }
+}

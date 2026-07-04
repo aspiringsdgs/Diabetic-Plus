@@ -1,0 +1,19 @@
+{
+  "isPremium": false,
+  "price": {
+    "USD": 0
+  },
+  "name": "Diabetic Plus (Mobile)",
+  "type": "diabetic-plus",
+  "device": "mobile",
+  "description": "Daily logs, blood sugar charts, activity records, meal planners, guidelines, risk scores, and symptoms tracker.",
+  "id": 100001,
+  "image": "",
+  "hashtags": [
+    "health",
+    "diabetes",
+    "tracker",
+    "logs",
+    "mobile"
+  ]
+}
